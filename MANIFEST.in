@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include refteck_web *.css
+recursive-include refteck_web *.csv
+recursive-include refteck_web *.html
+recursive-include refteck_web *.ico
+recursive-include refteck_web *.js
+recursive-include refteck_web *.json
+recursive-include refteck_web *.md
+recursive-include refteck_web *.png
+recursive-include refteck_web *.py
+recursive-include refteck_web *.svg
+recursive-include refteck_web *.txt
+recursive-exclude refteck_web *.pyc
